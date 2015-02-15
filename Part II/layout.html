@@ -1,17 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+<meta charset="UTF-8"/>
 
 <h1> 
+<!-- http://www.dreamtemplate.com/dreamcodes/documentation/social_icons.html# social network icon integration -->
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/style.css">
 </h1>
 
 <div>
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
-    <!-- Create navigation bar for layout and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -19,16 +21,39 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#" >About Me</a>
-      <a class="navbar-brand" href="#" >History</a>
-      <a class="navbar-brand" href="#">MainPage</a>
+      <header class ="name">
+      <h1> Brian Trinh </h1>
+      </header>
+      <div class="links">
+      <ul class="nav navbar-nav navbar-right">
+      <a class="navbar-brand" href="#">Top</a>
+      <a class="navbar-brand" href="#" >Experience</a>
+      <a class="navbar-brand" href="#skills" >Skills</a>
+      <!-- Social Networking buttons
+      http://www.greatfun4kidsblog.com/2011/09/blog-tips-your-own-social-media-buttons.html-->
+        <li>
+          <a href=""><img style="border: 0pt none ;" title="Become a friend" alt="" src=" http://i788.photobucket.com/albums/yy162/donnasimone/TWITTERBUTTONgrey_zps48ffe683.png" width="20" height="20" /></a>
+        </li>
+        <li>
+          <a href="http://www.facebook.com/X"><img style="border: 0pt none ;" title="Become a friend" alt="" src=" http://i788.photobucket.com/albums/yy162/donnasimone/FACEBOOKBUTTONgrey_zps1cd309d6.png" width="20" height="20" /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/profile/view?id=389681540"><img style="border: 0pt none ;" title="Become a friend" alt="" src=" http://i788.photobucket.com/albums/yy162/donnasimone/LINKEDINbuttongrey_zpsc6090924.png" width="20" height="20" /></a>
+        </li>
+        <li>
+          <a href="mailto:btrinh@ualberta.ca" ><img style="border: 0pt none ;" title="Email" alt="" src=" http://i788.photobucket.com/albums/yy162/donnasimone/EMAILBUTTON_zpsa132587e.png" width="20" height="20" /></a>
+        </li>
+      </ul> 
+      </div>
     </div>
+    <!--
 	<form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
+      -->
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -38,8 +63,58 @@
 
 <!-- BODY -->
 <body>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <div class="profile_image">
+  <div style="display: inline-block;">
+    <img src="profile.png" style="width:12em; height:17em;"/>
+  </div>
+    <div class="content">
+      <div style="display: inline-block;">
+        <article class="about_me">
+          <header class="about_me_h">
+            <a id="about_me"><h1>About Me</h1></a>
+            </header>
+            <p3>I am a 23 year old undergraduate Computing Science student from the <a href="http://cs.ualberta.ca">University of Alberta.</a> <br/>I enjoy watching movies, playing video games and spending time with friends and family.</p3>
+        </article>
+  </div>
+</div>
+</div>
+<div class ="meat">
+<!-- http://stackoverflow.com/questions/23584120/line-separator-under-text-and-transparent-background cool dividers for my links -->
+  <a id="experience"><h3 class="divider">Experience</h3></a>
 
+
+  <p><br/>
+  <u><b>Bell Mobility - June 2011 - September 2012</b></u><br/>
+• Sales Representative<br/>
+• Market and sell cellphones, Bell TV, Bell internet, accessories, and plans<br/>
+• Point-of-sales operation<br/><br/>
+<u><b>Yogen Fruz Kingsway - July 2006 - May 2007</b></u><br/>
+• Prepare variatious desserts, beverages, and general cleaning<br/>
+• Point-of-sales operation<br/><br/>
+<u><b>Pizza 73 - 2005</b></u><br/>
+• Machine operation and food preparation<br/>
+• General cleaning and food safety<br/><br/>
+<u><b>Volunteer Experience</b></u><br/>
+• M.E. LaZerte Inner City School Mentoring Program 2007-2009<br/>
+• Boys and Girls Clubs Big Brothers Big Sisters of Edmonton In-School Mentor 2013-2014<br/></p>
+
+  <a id="skills"><h3 class="education_div">Skills</h3></a>
+
+  <p2>• Good organizational skills with the ability to prioritize tasks<br/>
+• Flexible and desires to learn new skills<br/>
+• Great at adapting to new situations and problems<br/>
+• Excellent communication skills<br/>
+• Ability to apply software design and software engineering concepts<br/>
+• User/Costumer centered design<br/>
+• Works well with customers <br/>
+• Works well in a team dynamic<br/><br/>
+•<b><u>Programming Languages:</u></b><br/>Java, C, C#, C++, HTML/HTML5, CSS, Python, Javascript, XML<br/><br/>
+•<b><u>Other:</u></b><br/>Apache, Django, JSON, Oracle DB, mySQL, SQLite, Bootstrap, OpenGL, 3DsMax, Scratch, Photoshop, Kodu, UML, ER Diagrams, Android, iOS, Windows, Mac OS, Linux/Unix<br/><br/><br/><br/>  </p2>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</html>
 
 

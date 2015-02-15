@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+.divider{
+    color:#AEBFAE;
+    width:60%;
+    margin-top: 13.5%;
+    margin-left:25%;
+    position: absolute;
+    overflow:hidden;
+    text-align:center;   
+    line-height:1.2em;
+}
+
+.divider:before, .divider:after{
+    content:"";
+    vertical-align:top;
+    display:inline-block;
+    width:90%;
+    height:0.65em;
+    border-bottom:1px solid #AEBFAF;
+    margin:0 2% 0 -55%;
+}
+.divider:after{
+    margin:0 -55% 0 2%;
+}
+.education_div{
+    color:#AEBFAE;
+    width:60%;
+    margin-top: 70%;
+    margin-left:25%;
+    position: absolute;
+    overflow:hidden;
+    text-align:center;   
+    line-height:1.2em;
+}
+
+.education_div:before, .education_div:after{
+    content:"";
+    vertical-align:top;
+    display:inline-block;
+    width:90%;
+    height:0.65em;
+    border-bottom:1px solid #AEBFAF;
+    margin:0 2% 0 -55%;
+}
+.education_div:after{
+    margin:0 -55% 0 2%;
+}
+a{
+  color: #86AD86;
+  text-decoration: none;
+  outline-color: #000;
+}
+a:visited{
+}
+div.links{
+}
+div.profile_image {
+  float: left;
+  margin-top: 12%;
+  margin-left: .5%;
+  width: 12em;
+  box-shadow: 0.1em 0.1em 0.15em 0.15em #99BF99;
+  overflow: hidden;
+  background: #D1F0D1;
+  position: fixed;
+}
+.content{
+  margin-top: 0%;
+  margin-right: 100%;
+  margin-left: 5%;
+  width: 150px;
+  color:#000000;
+}
+.name{
+  text-shadow: 1px 1px #ffffff;
+  color: #AEBFAE
+  font-size: 15em;
+  margin-top: 2%;
+}
+body{
+  background-color: #C3EBC3
+}
+h1{
+  color: #AEBFAE;
+  margin-top: 0%;
+  padding: 0;
+  font-size: 2em;
+}
+h2{
+  font-size: 2em;
+  margin-top: 13.5%;
+  margin-left: 20%;
+  position:absolute;
+}
+p{
+  margin-top: 18.5%;
+  position: absolute;
+  float: right;
+  margin-left: 25%;
+  width: 70%;
+  font-size: 1em;
+  margin-bottom: 2%;
+}
+p2{
+  margin-top: 75%;
+  position: absolute;
+  float: right;
+  margin-left: 25%;
+  width: 70%;
+  font-size: 1em;
+}
+p3{
+  font-size: 1em;
+}
