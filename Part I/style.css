@@ -1,0 +1,63 @@
+/* Italicize, size = 70%  */
+pre {
+	font-style: italic;
+	font-size: 70%;
+	font-family: sans-serif;
+}
+/* set background to seamless vintage paper pattern */
+body { 
+	background-image: url( 'http://paper-backgrounds.com/textureimages/2012/07/seamless-vintage-brown-paper-texture-575x400.jpg' );
+}
+/* same as original but with serif font */
+p{
+	text-indent: 1em; 
+	margin-top: .25em; 
+	margin-bottom: .25em;
+	font-family: serif;
+}
+hr{
+	width: 50%;
+}
+/* increased header font size to 2em, 1px sized white shadow to make text pop */
+H1,H2,H3,H4,H5,H6 { 
+	text-align: center; 
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 2em;
+	text-shadow: 1px 1px #FFFFFF;
+}
+/* gives images a moccasin border */
+img{
+	width: auto;
+	display: inline;
+	border-color: moccasin;
+	border-width: 2px;
+	border-style: solid;
+}
+div.fig { 
+	display:block; 
+	margin:0 auto; 
+	text-align:center; 
+}
+/* makes the illustration's toc smaller and more compact */
+TABLE.illus { 
+	font-variant: small-caps; 
+	font-weight: italic; 
+}
+P.illus { 
+	margin-left: 4em;
+	margin:0 auto;
+	text-align: right;
+}
+/* bolds and centers the TOC */
+DIV.contents { 
+	font-weight: bold; 
+	text-align: center;
+}
+/* bolds and centers TOC for Poe's */
+p.toc{
+	font-weight: bold; 
+	text-align: center;
+}
+P.preface1 { margin-right: 2em; text-align: right; }
+P.preface2 { margin-right: 4em; text-align: right; }
