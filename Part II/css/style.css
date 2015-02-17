@@ -3,7 +3,7 @@
 .divider{
     color:#AEBFAE;
     width:60%;
-    margin-top: 13.5%;
+    margin-top: 10.5%;
     margin-left:25%;
     position: absolute;
     overflow:hidden;
@@ -26,7 +26,7 @@
 .education_div{
     color:#AEBFAE;
     width:60%;
-    margin-top: 70%;
+    margin-top: 42%;
     margin-left:25%;
     position: absolute;
     overflow:hidden;
@@ -46,6 +46,52 @@
 .education_div:after{
     margin:0 -55% 0 2%;
 }
+.pl_div{
+    color:#AEBFAE;
+    width:60%;
+    margin-top: 60%;
+    margin-left:25%;
+    position: absolute;
+    overflow:hidden;
+    text-align:center;   
+    line-height:1.2em;
+}
+
+.pl_div:before, .pl_div:after{
+    content:"";
+    vertical-align:top;
+    display:inline-block;
+    width:70%;
+    height:0.65em;
+    border-bottom:1px solid #AEBFAF;
+    margin:0 2% 0 -55%;
+}
+.pl_div:after{
+    margin:0 -55% 0 2%;
+}
+.other_div{
+    color:#AEBFAE;
+    width:60%;
+    margin-top: 70%;
+    margin-left:25%;
+    position: absolute;
+    overflow:hidden;
+    text-align:center;   
+    line-height:1.2em;
+}
+
+.other_div:before, .other_div:after{
+    content:"";
+    vertical-align:top;
+    display:inline-block;
+    width:90%;
+    height:0.65em;
+    border-bottom:1px solid #AEBFAF;
+    margin:0 2% 0 -55%;
+}
+.other_div:after{
+    margin:0 -55% 0 2%;
+}
 a{
   color: #86AD86;
   text-decoration: none;
@@ -57,9 +103,9 @@ div.links{
 }
 div.profile_image {
   float: left;
-  margin-top: 12%;
-  margin-left: .5%;
-  width: 12em;
+  margin-top: 8%;
+  margin-left: 1%;
+  width: 20em;
   box-shadow: 0.1em 0.1em 0.15em 0.15em #99BF99;
   overflow: hidden;
   background: #D1F0D1;
@@ -68,14 +114,15 @@ div.profile_image {
 .content{
   margin-top: 0%;
   margin-right: 100%;
-  margin-left: 5%;
-  width: 150px;
+  margin-left: 10%;
+  width: 220px;
   color:#000000;
+  font-size: 10pt;
 }
 .name{
   text-shadow: 1px 1px #ffffff;
   color: #AEBFAE
-  font-size: 15em;
+  font-size: 16em;
   margin-top: 2%;
 }
 body{
@@ -89,27 +136,33 @@ h1{
 }
 h2{
   font-size: 2em;
-  margin-top: 13.5%;
+  margin-top: 10.5%;
   margin-left: 20%;
   position:absolute;
 }
 p{
-  margin-top: 18.5%;
+  margin-top: 12.5%;
   position: absolute;
   float: right;
-  margin-left: 25%;
+  margin-left: 30%;
   width: 70%;
   font-size: 1em;
   margin-bottom: 2%;
 }
 p2{
-  margin-top: 75%;
+  margin-top: 45%;
   position: absolute;
   float: right;
-  margin-left: 25%;
+  margin-left: 30%;
   width: 70%;
   font-size: 1em;
 }
 p3{
   font-size: 1em;
+}
+h5{
+  font-size: 2em;
+  margin-top: 10.5%;
+  margin-left: 20%;
+  position:absolute;
 }
