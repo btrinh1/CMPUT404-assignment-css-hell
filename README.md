@@ -32,6 +32,26 @@ Part I Changes
 
 -Color scheme modified by using a seamless paper background to fit the theme of our assignment
 
+Part II Sources
+=================
+getbootstrap.com
+
+http://stackoverflow.com/questions/23584120/line-separator-under-text-and-transparent-background
+
+http://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+
+http://stackoverflow.com/questions/5803023/how-to-place-two-divs-next-to-each-other
+
+http://stackoverflow.com/questions/446060/css-two-divs-next-to-each-other
+
+http://jsfiddle.net/jdniki/Vj87c/
+
+http://fonts.googleapis.com/
+
+http://www.colorpicker.com/
+
+
+
 License/Copyright
 =================
 
