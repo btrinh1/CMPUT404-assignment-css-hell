@@ -15,13 +15,21 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 Part I Changes
 ===============
 -Italicized font in preamble
+
 -Size of font in preamble set to 70% 
+
 -Paragraph's themed with serif font
+
 -Headers themed by changing font size to 2em
+
 -White shadow added to headers to make them pop a bit more
+
 -Images given a mocassin colored border to make them stand out
+
 -Bolded and centered font for TOC's
+
 -Table of content's for A Christmas's Carol's Illustrations made smaller, italicized and more compact
+
 -Color scheme modified by using a seamless paper background to fit the theme of our assignment
 
 License/Copyright
